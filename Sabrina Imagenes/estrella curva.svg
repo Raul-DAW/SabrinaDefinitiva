@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 170">
+  <!-- transparent background -->
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <!-- elegant curved flourish -->
+    <path d="M26 154
+             C24 116, 34 87, 57 72
+             C76 60, 98 61, 106 73
+             C112 82, 108 93, 99 98
+             C90 103, 81 100, 79 94
+             C77 88, 82 83, 88 83"
+          stroke-width="2.6"/>
+    <!-- short rising connector -->
+    <path d="M106 73 C122 59, 139 48, 157 42"
+          stroke-width="2.6"/>
+    <!-- tiny four-point sparkle -->
+    <path d="M165 24
+             C162 34, 157 39, 147 42
+             C157 45, 162 50, 165 60
+             C168 50, 173 45, 183 42
+             C173 39, 168 34, 165 24Z"
+          stroke-width="2.4"/>
+    <!-- tiny secondary sparkle -->
+    <path d="M186 27
+             C185 31, 183 33, 179 34
+             C183 35, 185 37, 186 41
+             C187 37, 189 35, 193 34
+             C189 33, 187 31, 186 27Z"
+          stroke-width="1.6"/>
+  </g>
+</svg>
