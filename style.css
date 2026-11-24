@@ -1,0 +1,221 @@
+/*Import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatica+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Puppies+Play&display=swap');
+
+/*----------------------General Things---------------------------*/
+*{
+    /*Removes default margins and padding from all elements and includes padding and borders in their total width and height.*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /*Enables smooth scrolling when clicking a link that leads to a specific section.*/
+    scroll-behavior: smooth;
+}
+
+/*Permit me save the colours and the fonts to use in the code*/
+:root {
+   /*Colours*/
+   --Dark-Blue:#244866;
+   --Light-Blue:#708AAA;
+   --Beige:#F4EDE3;
+   --White:#FFFFFF;
+   --Pink:#a08294;
+   --Blue-Grey:#B8C5D0;
+   --Orange: #ff330075;
+   --Cards-Blue: #3347bc75;
+   --Black: #000000;
+   --transparent: transparent;
+
+   /*typography*/
+   --font-titles-h: 'Carattere';
+   --font-nav: 'Amatica SC';
+   --font-text: 'Playfair Display';
+   --font-decorative: 'Puppies Play';
+}
+
+/*---------------------Home Section----------------------------*/
+.Hero-Section{
+    background-image: url("Sabrina Imagenes/Sabri Portada original.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    
+
+    .Navegation-bar{
+        display: flex;
+        padding: 3rem 3rem;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: var(--Dark-Blue);
+        text-decoration: none;
+        gap: 2rem;
+
+        .SC-Logo{
+         margin-right: auto;
+        }
+
+          a{
+            text-decoration: none;
+            color: white;
+            align-items: center;
+            font-size: 12;
+        }
+    }
+
+    img{
+        width:1rem;
+        height: 1rem;
+    }
+
+    .Text-Button-front{
+        display: flex;
+        padding: 24rem;
+        justify-content: space-evenly;
+        gap: 100rem;
+    }
+
+    .Hero-Slogan{
+        h1{
+          color: var(--White);
+          font-family: var(--font-titles-h);
+          font-size: 5rem;
+        }
+
+        p{
+          color: var(--White);
+          font-family: var(--font-text);
+          font-size: 3rem;
+        }
+    }
+
+    .Hero-Button{
+        button{
+            background-color: var(--transparent);
+            font-family: var(--font-text);
+            color: var(--White);
+            font-size: 1rem;
+            position: relative;
+            border: 1px solid white;
+            border-radius: 16px;
+            padding: 2rem 2rem;
+            
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        .Star-img-button{
+          position: absolute;
+        }
+
+        .Kiss-img-button{
+          position: absolute;
+        }
+
+    }
+}
+
+/*---------------------Biography Section----------------------------*/
+.Biography-Section{
+    background-color: var(--Beige);
+    min-height: 80vh;
+    padding: 3rem 3rem;
+
+    h1{
+        font-family: var(--font-titles-h);
+        color: var(--Dark-Blue);
+        font-size: 3rem;
+    }
+
+      .Info_Bio{
+        display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: 2rem;
+
+        .First-Paragraph-Bio{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         p{
+            font-family: var(--font-text);
+            color: var(--Dark-Blue);
+            max-width: 56rem;
+         }
+
+         img{
+           width: 5rem;
+           height: 5rem;
+         }
+        }
+
+        .Second-Paragraph-Bio{
+          display: flex;
+          flex-direction: row-reverse;
+          p{
+            font-family: var(--font-text);
+            color: var(--Dark-Blue);
+            max-width: 56rem;
+         }
+
+           img{
+           width: 5rem;
+           height: 5rem;
+         }
+        }
+
+        .Third-Paragraph-Bio{
+        display: flex;
+
+        p{
+            font-family: var(--font-text);
+            color: var(--Dark-Blue);
+            max-width: 56rem;
+         }
+
+           img{
+           width: 5rem;
+           height: 5rem;
+         }
+
+        }
+      }
+ }
+/*---------------------Album Section----------------------------*/
+.Album-Section{
+    background-image: url("Sabrina Imagenes/Fondo_Albums.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    padding: 5rem 3rem;
+
+    h1{
+      font-family: var(--font-titles-h);
+      font-size: 10rem;
+      color: var(--White)
+    }
+
+    .Intro-Album{
+    display: flex;
+    justify-content: center;
+
+    img{
+      width: 3rem;
+      height: 3rem;
+    }
+    }
+
+    .shortsweet-Album{
+      bac
+    }
+    
+}
